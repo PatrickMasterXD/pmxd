@@ -1,0 +1,56 @@
+﻿body{
+		background-color: #000000;
+		color: #e0ecfc;
+		background-image: url("fundo.JPG");
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none; /* safari  */
+		-moz-user-select: none;    /* Firefox */
+		-ms-user-select: none;     /* IE 10   */
+		-o-user-select: none;	   /* Opera   */
+		user-select: none;  
+}
+IMG.vai{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+	height: 40%;
+}
+p{
+	text-align: center;
+}
+table, th, td{
+		border-collapse: separate;
+		table-layout: fixed;
+		margin-left: auto;
+		margin-right: auto;
+}
+table{
+		background-position: bottom center;
+		height: 100%;
+		background-image: url("menu1.JPG");
+		background-repeat: no-repeat;
+}
+#tempo{
+	font-family: Arial, Comic Sans MS;
+	text-align: center;
+	font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+	height: 40%;
+}
+#sonz{
+	table-layout: fixed;
+	margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+	height: 40%;
+	position: center;
+}
+div{
+	text-align: justify;
+}

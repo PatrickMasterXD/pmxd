@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<meta charset = "UTF-8">
+
+		<title>Sua recompensa!</title>
+		<style type="text/css">
+			#fundo{
+				z-index: 1;
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 400px;
+				height: 600px;
+			}
+
+			#meuCanvas{
+				z-index: 2;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				border-style: solid;
+				border-color: black;
+				border-width: 3px;
+			}
+			#capa{
+				z-index: 3;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 400px;
+				height: 600px;
+				border-style: solid;
+				border-color: black;
+				border-width: 3px;
+			}
+			#inicio{
+				z-index: 4;
+				position: absolute;
+				left: 35%;
+				top: 72%;
+			}
+			#ajuda{
+				z-index: 2;
+				position: absolute;
+				left: 2px;
+				top: 46px;
+			}
+			#texto{
+				z-index: 2;
+				position: absolute;
+				left: 9px;
+				top: 82px;
+				width: 170px;
+				height: 60px;
+				border-style: solid;
+				border-color: #04566D;
+				border-width: 4px;
+				font-family: "Comic San MS";
+				font-size: 13px;
+				color: white;
+			}
+			#pause{
+				z-index: 2;
+				position: absolute;
+				left: 2px;
+				top: 2px;
+			}
+			#reinicio{
+				z-index: 2;
+				position: absolute;
+				left: 183px;
+				top: 350px;
+			}
+			body{
+				-webkit-touch-callout: none;
+				-webkit-user-select: none; /* safari  */
+				-moz-user-select: none;    /* Firefox */
+				-ms-user-select: none;     /* IE 10   */
+				-o-user-select: none;	   /* Opera   */
+				user-select: none;  
+			}
+			
+		</style>
+		<script src = "js/jquery-1.12.4.min.js"></script>
+		<script src = "js/javascript.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "css/form.css">
+	</head>
+	<body>
+		<h1 align="center"><a href="index.html"><img src="img/logo.PNG" width="20%" height="10%"/></a></h1>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<div id = "fundo">
+			<canvas id = "meuCanvas" width = "400px" height = "600px"></canvas>
+			<img id = "ajuda" src="imagens/ajuda.png">
+			<div id = "texto">Clique na tela do jogo para fazer o heroi pular e assim destruir os inimigos.</div>
+			<img id = "pause" src = "imagens/pause.png">
+			<img id = "capa" src = "imagens/capa.jpg">
+			<img id = "inicio" src = "imagens/comecar.png">
+			<img id = "reinicio" src = "imagens/reinicio.png">
+			<audio id = "musica" src="sons/musica.mp3" preload="auto" loop></audio>
+			<audio id = "som1" src="sons/acertou.mp3" preload="auto"></audio>
+			<audio id = "som2" src="sons/errou.mp3" preload="auto"></audio>
+			</div>
+	</body>
+</html>
