@@ -4,13 +4,7 @@ body{
 		background-image: url("fundo.jpg");
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: contain;
-		-webkit-touch-callout: none;
-		-webkit-user-select: none; /* safari  */
-		-moz-user-select: none;    /* Firefox */
-		-ms-user-select: none;     /* IE 10   */
-		-o-user-select: none;	   /* Opera   */
-		user-select: none;  
+		background-size: contain;  
 }
 IMG.vai{
 	display: block;
