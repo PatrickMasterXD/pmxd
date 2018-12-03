@@ -4,7 +4,7 @@ function trocaPagina() {
 	
 	if(texto == "Só sei que nada sei" || texto == "só sei que nada sei") {
         //redirecionar
-        window.location.href = "2.html";
+        window.location.href = "linguarum2.html";
 	}else{
         alert("Tente Novamente!");
 		document.getElementById("img").src="img/erro.gif";  

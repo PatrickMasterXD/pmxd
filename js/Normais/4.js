@@ -3,7 +3,7 @@
         
 	if(texto == "Espectro" || texto == "espectro") {
         //redirecionar
-        window.location.href = "5.html";
+        window.location.href = "spectris5.html";
 	}else{
         alert("Tente Novamente!");
     }

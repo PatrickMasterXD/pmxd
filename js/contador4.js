@@ -9,7 +9,7 @@ function start(){
 		setTimeout('start();',1000);
 		if(cont == 0){
 			alert("O tempo acabou comece do primeiro desafio!");
-			window.location.href = "1.html";
+			window.location.href = "philosophus1.html";
 		}
 		if(seg == 0){
 			min--;

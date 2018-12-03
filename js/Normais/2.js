@@ -3,7 +3,7 @@ function trocaPagina() {
         
 	if(texto == "Imagem" || texto == "imagem") {
         //redirecionar
-        window.location.href = "3.html";
+        window.location.href = "imagini3.html";
 	}else{
         alert("Tente Novamente!");
     }

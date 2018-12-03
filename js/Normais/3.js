@@ -3,7 +3,7 @@
         
 	if(texto == "Sons" || texto == "sons") {
         //redirecionar
-        window.location.href = "4.html";
+        window.location.href = "sonos4.html";
 	}else{
         alert("Tente Novamente!");
     }
