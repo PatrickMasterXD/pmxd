@@ -1,7 +1,7 @@
 ﻿body{
 		background-color: #000000;
 		color: #e0ecfc;
-		background-image: url("fundo.jpg");
+		background-image: url("css/fundo.jpg");
 		background-position: bottom center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -31,7 +31,7 @@ table, th, td{
 table{
 		background-position: bottom center;
 		height: 100%;
-		background-image: url("menu1.jpg");
+		background-image: url("css/menu1.jpg");
 		background-repeat: no-repeat;
 }
 #tempo{
